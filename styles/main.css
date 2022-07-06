@@ -1,0 +1,40 @@
+body {
+    background-color:rgb(0, 0, 0);
+}
+
+.MainHeader {
+    color: rgb(250, 85, 35);
+    text-align: center;
+}
+
+.field {
+    height: fit-content;
+    width: 510px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.singlesquare {
+    height: 100px;
+    width: 100px;
+    border: 1px solid rgb(79, 230, 210);
+    background-color: rgb(228, 226, 226);
+}
+
+.singlesquare2 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid rgb(79, 230, 210);
+    background-color: rgb(85, 59, 59);
+}
+
+.player {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 80px;
+    left: 9px;
+}
